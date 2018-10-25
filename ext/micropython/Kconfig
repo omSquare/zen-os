@@ -1,0 +1,8 @@
+config MICROPYTHON
+	bool "Integrate Micropython interpreter"
+	default n
+	select NEWLIB_LIBC
+	help
+	This option enable to use Python language in your application.
+
+

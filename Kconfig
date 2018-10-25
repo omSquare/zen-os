@@ -1,0 +1,6 @@
+mainmenu "Zephyr configuration"
+source "$(ZEPHYR_BASE)/Kconfig.zephyr"
+
+mainmenu "Zen-OS configuration"
+
+rsource "Kconfig.zenos"
